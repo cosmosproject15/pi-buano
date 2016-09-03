@@ -1,0 +1,233 @@
+## {LICENSE}
+
+## Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+## Upstream-Name: buano
+## Source: https://github.com/cosmosproject15/pi
+
+## Files: bp1.py, README, buano
+## Copyright: 2016 C O S M O S Project. <cosmosp2016@gmail.com>
+
+## License: GPL-2.0+
+
+## Files: pi/buano/README
+## Copyright: 2016 C O S M O S Project. <cosmosp2016@gmail.com>
+## License: GPL-2.0+
+
+##  License: GPL-2.0+
+##  This package is free software; you can redistribute it and/or modify
+##  it under the terms of the GNU General Public License as published by
+##  the Free Software Foundation; either version 2 of the License, or
+##  (at your option) any later version.
+##  .
+##  This package is distributed in the hope that it will be useful,
+##  but WITHOUT ANY WARRANTY; without even the implied warranty of
+##  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+##  GNU General Public License for more details.
+##  .
+##  You should have received a copy of the GNU General Public License
+##  along with this program. If not, see <https://www.gnu.org/licenses/>
+##  .
+##  On Debian systems, the complete text of the GNU General
+##  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+## # Please also look if there are files or directories which have a
+## # different copyright/license attached and list them here.
+## # Please avoid picking licenses with terms that are more restrictive than the
+## # packaged work, as it may make Debian's contributions unacceptable upstream.
+
+#!/bin/bash
+
+trap 'killall -9 python' 0
+while [ : ]; do
+clear
+echo "
+			<< buano >>
+
+This proram source is buzzer piano by rasberrypi on python module.
+
+Maintainer : C O S M O S project. <cosmosproject15@gmail.com>
+Homepage : http://cosmosproject2015.tistory.com
+"
+read -n 1 -p "input [keyboard]:" pia
+
+	if [ "$pia" = "q" ]; then
+		sed -i 's/number/250/g' pb1.py
+		python pb1.py
+		sed -i 's/250/number/g' pb1.py
+	fi
+	if [ "$pia" = "w" ]; then
+
+		sed -i 's/number/340/g' pb1.py
+		python pb1.py
+		sed -i 's/340/number/g' pb1.py
+
+
+	fi
+	if [ "$pia" = "e" ]; then
+		sed -i 's/number/420/g' pb1.py
+		python pb1.py
+		sed -i 's/420/number/g' pb1.py
+
+	fi
+	if [ "$pia" = "r" ]; then
+		sed -i 's/number/500/g' pb1.py
+		python pb1.py
+		sed -i 's/500/number/g' pb1.py
+
+	fi
+
+	if [ "$pia" = "t" ]; then
+		sed -i 's/number/580/g' pb1.py
+		python pb1.py
+		sed -i 's/580/number/g' pb1.py
+	fi
+	if [ "$pia" = "y" ]; then
+
+		sed -i 's/number/640/g' pb1.py
+		python pb1.py
+		sed -i 's/640/number/g' pb1.py
+
+
+	fi
+	if [ "$pia" = "u" ]; then
+		sed -i 's/number/710/g' pb1.py
+		python pb1.py
+		sed -i 's/710/number/g' pb1.py
+
+	fi
+	if [ "$pia" = "i" ]; then
+		sed -i 's/number/780/g' pb1.py
+		python pb1.py
+		sed -i 's/780/number/g' pb1.py
+
+	fi
+	if [ "$pia" = "o" ]; then
+		sed -i 's/number/850/g' pb1.py
+		python pb1.py
+		sed -i 's/850/number/g' pb1.py
+	fi
+	if [ "$pia" = "p" ]; then
+
+		sed -i 's/number/930/g' pb1.py
+		python pb1.py
+		sed -i 's/930/number/g' pb1.py
+
+
+	fi
+	if [ "$pia" = "a" ]; then
+		sed -i 's/number/1000/g' pb1.py
+		python pb1.py
+		sed -i 's/1000/number/g' pb1.py
+
+	fi
+	if [ "$pia" = "s" ]; then
+		sed -i 's/number/1080/g' pb1.py
+		python pb1.py
+		sed -i 's/1080/number/g' pb1.py
+
+	fi
+	if [ "$pia" = "d" ]; then
+		sed -i 's/number/1140/g' pb1.py
+		python pb1.py
+		sed -i 's/1140/number/g' pb1.py
+	fi
+	if [ "$pia" = "f" ]; then
+
+		sed -i 's/number/1220/g' pb1.py
+		python pb1.py
+		sed -i 's/1220/number/g' pb1.py
+
+
+	fi
+	if [ "$pia" = "g" ]; then
+		sed -i 's/number/1300/g' pb1.py
+		python pb1.py
+		sed -i 's/1300/number/g' pb1.py
+
+	fi
+	if [ "$pia" = "h" ]; then
+		sed -i 's/number/1380/g' pb1.py
+		python pb1.py
+		sed -i 's/1380/number/g' pb1.py
+
+	fi
+	if [ "$pia" = "j" ]; then
+		sed -i 's/number/1430/g' pb1.py
+		python pb1.py
+		sed -i 's/1430/number/g' pb1.py
+	fi
+	if [ "$pia" = "k" ]; then
+
+		sed -i 's/number/1500/g' pb1.py
+		python pb1.py
+		sed -i 's/1500/number/g' pb1.py
+
+
+	fi
+	if [ "$pia" = "l" ]; then
+		sed -i 's/number/1570/g' pb1.py
+		python pb1.py
+		sed -i 's/1570/number/g' pb1.py
+
+	fi
+	if [ "$pia" = "z" ]; then
+		sed -i 's/number/1630/g' pb1.py
+		python pb1.py
+		sed -i 's/1630/number/g' pb1.py
+
+	fi
+
+	if [ "$pia" = "x" ]; then
+		sed -i 's/number/1710/g' pb1.py
+		python pb1.py
+		sed -i 's/1710/number/g' pb1.py
+	fi
+	if [ "$pia" = "c" ]; then
+
+		sed -i 's/number/1800/g' pb1.py
+		python pb1.py
+		sed -i 's/1800/number/g' pb1.py
+
+
+	fi
+	if [ "$pia" = "v" ]; then
+		sed -i 's/number/1870/g' pb1.py
+		python pb1.py
+		sed -i 's/1870/number/g' pb1.py
+
+	fi
+	if [ "$pia" = "b" ]; then
+		sed -i 's/number/1920/g' pb1.py
+		python pb1.py
+		sed -i 's/1920/number/g' pb1.py
+
+	fi
+	if [ "$pia" = "n" ]; then
+		sed -i 's/number/2000/g' pb1.py
+		python pb1.py
+		sed -i 's/2000/number/g' pb1.py
+	fi
+	if [ "$pia" = "m" ]; then
+
+		sed -i 's/number/2080/g' pb1.py
+		python pb1.py
+		sed -i 's/2080/number/g' pb1.py
+
+
+	fi
+	if [ "$pia" = "," ]; then
+		sed -i 's/number/2140/g' pb1.py
+		python pb1.py
+		sed -i 's/2140/number/g' pb1.py
+
+	fi
+	if [ "$pia" = "." ]; then
+		sed -i 's/number/2200/g' pb1.py
+		python pb1.py
+		sed -i 's/2200/number/g' pb1.py
+
+	fi
+
+done
+
+exit 0
