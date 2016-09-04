@@ -2,11 +2,11 @@
 
 5V -> PASSIVE BUZZER (+)
 
-GPIO 18 -> 1KΩ -> TRANSITOR (2) -> LED (+)
+GPIO 18 -> 1KΩ -> TRANSITOR (2) -> LED (+) 
 
 TRNSISTOR (1) -> PASSIVE BUZZER (-) -> LED (-)
 
-TRNSISTOR (3) -> GND
+GND -> TRNSISTOR (3) 
 
 
 
