@@ -1,12 +1,12 @@
 ## This file is GPIO connect manual for project 'buano'
 
-5V -> PASSIVE BUZZER (+)
+5V -> PASSIVE_BUZZER1 (+) -> LED1 (+)
 
-GPIO 18 -> 1KΩ -> TRANSITOR (2) -> LED (+) 
+GPIO 18 -> 1KΩ -> TRANSITOR1 (2) 
+        TRNSISTOR1 (1) -> PASSIVE_BUZZER1 (-) -> LED1 (-)
 
-TRNSISTOR (1) -> PASSIVE BUZZER (-) -> LED (-)
 
-GND -> TRNSISTOR (3) 
+GND -> TRNSISTOR1 (3) 
 
 
 
